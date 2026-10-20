@@ -1,0 +1,21 @@
+# Normalize documentation and scripts while preserving native model bytes.
+* text=auto
+*.md text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.py text eol=lf
+LICENSE text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+
+*.SLDPRT binary
+*.sldprt binary
+*.SLDASM binary
+*.sldasm binary
+*.SLDDRW binary
+*.slddrw binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary

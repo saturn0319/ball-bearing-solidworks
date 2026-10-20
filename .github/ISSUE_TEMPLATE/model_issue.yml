@@ -1,0 +1,35 @@
+name: 模型或文档问题 / Model or documentation issue
+description: 报告模型打开、文件引用、预览或文档问题。
+title: "[问题] "
+body:
+  - type: markdown
+    attributes:
+      value: 请说明具体问题和复现方式；提交截图前请检查其中的个人信息。
+  - type: input
+    id: software
+    attributes:
+      label: 软件与版本 / Software and version
+      description: 如涉及模型打开，请填写 SOLIDWORKS 年份版本和 Service Pack；纯文档问题可写“不适用”。
+    validations:
+      required: true
+  - type: input
+    id: file
+    attributes:
+      label: 涉及的文件 / Affected file
+      placeholder: 滚珠轴承.SLDASM / README.md
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤 / Steps to reproduce
+      description: 说明下载方式、打开入口，以及出现问题前的具体操作。
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: 实际结果与期望结果 / Actual and expected result
+      description: 可附错误消息或截图。
+    validations:
+      required: true

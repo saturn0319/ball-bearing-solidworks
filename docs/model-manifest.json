@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-10-20",
+  "assembly_configuration": "默认",
+  "quantity_source": "Saved swXmlContents/COMPINSTANCETREE; swReference entries with swSuppressed=NO and swExcludeFromBOM=NO. Not a live SOLIDWORKS BOM.",
+  "saved_metadata": {
+    "Application": "SOLIDWORKS",
+    "AppVersion": "23.0000",
+    "swVersion": "13000",
+    "note": "Metadata fields only; software compatibility has not been tested."
+  },
+  "files": [
+    {
+      "path": "滚珠轴承.SLDASM",
+      "kind": "assembly",
+      "instances_in_default_configuration": null,
+      "size_bytes": 494966,
+      "sha256": "a62e63ea6ba2f9b44812a610058261a5732d50249de8e82a80ce0ab7251b1af2",
+      "preview": "assets/previews/assembly.png",
+      "preview_sha256": "0a4e3309d9578760669bfd62968caf6ba1f62c3f788779d989c6f05ca2f066c4"
+    },
+    {
+      "path": "轴承外圈.SLDPRT",
+      "kind": "part",
+      "instances_in_default_configuration": 1,
+      "size_bytes": 161051,
+      "sha256": "2456a35b611105c68408cbb6852e0eec7e29b35254a0c9a7721efc7067335c35",
+      "preview": "assets/previews/outer-ring.png",
+      "preview_sha256": "628987b2d56d74748556613a44b98fb92fe6d7c2ad72d5486e5f7bc5e4fda999"
+    },
+    {
+      "path": "轴承内圈.SLDPRT",
+      "kind": "part",
+      "instances_in_default_configuration": 1,
+      "size_bytes": 179676,
+      "sha256": "1d6abf0771fe369a8c97313c90bc84999026ca63a8242902595706f010d124af",
+      "preview": "assets/previews/inner-ring.png",
+      "preview_sha256": "61a920551d7552a8155b3057307e582a1ce40bb5a14f3f5294dca09653ef55af"
+    },
+    {
+      "path": "滚珠.SLDPRT",
+      "kind": "part",
+      "instances_in_default_configuration": 8,
+      "size_bytes": 144228,
+      "sha256": "84ecbae4cc867fc08d3b29410ba7be523c35412cf8c8728f0ab3da2fd504272b",
+      "preview": "assets/previews/ball.png",
+      "preview_sha256": "b790db9a012c8a263e7936d6d7bd181dd11f77969534107e89a1af4518806b9c"
+    },
+    {
+      "path": "钢球架.SLDPRT",
+      "kind": "part",
+      "instances_in_default_configuration": 2,
+      "size_bytes": 345798,
+      "sha256": "fd6533fc04fcae83b2291f4baa298cbed37bdcc5530b0eea804e84f561f2827f",
+      "preview": "assets/previews/cage.png",
+      "preview_sha256": "bde86a6a3fe6bb2f04436d82ff76214d4279c654a3d45f1b28f0f1025c2a919d"
+    },
+    {
+      "path": "紧固件.SLDPRT",
+      "kind": "part",
+      "instances_in_default_configuration": 8,
+      "size_bytes": 114999,
+      "sha256": "6e1b44ed82d154f93929176881c12921b806883bd2afbc3bebe13fa66d3fa13a",
+      "preview": "assets/previews/fastener.png",
+      "preview_sha256": "045582270e9f50f52bdee3e301d072c5852432b363b04468c2bf89029cd4545f"
+    }
+  ]
+}
